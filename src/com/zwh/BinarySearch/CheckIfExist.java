@@ -6,6 +6,7 @@ public class CheckIfExist {
 
     public static void main(String[] args) {
         System.out.println(checkIfExist(new int []{-10,12,-20,-8,15}));
+
     }
 
     public static boolean checkIfExist(int[] arr) {
@@ -21,6 +22,7 @@ public class CheckIfExist {
             else if(pointer == len) break;
         }
         return false;
+
     }
 
 }
